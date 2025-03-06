@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "cd12",
+      "name": "Prajwal",
+      "email": "p@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "6084",
+      "name": "Teja",
+      "email": "teja@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "courses": [
+    {
+      "id": "a123",
+      "courseName": "MERN Stack",
+      "duration": "4 Months",
+      "trainer": "Prajwal ",
+      "price": "8900",
+      "startDate": "2025-02-03"
+    },
+    {
+      "id": "14ab",
+      "courseName": "Python Full Stack",
+      "duration": " 6 Months",
+      "trainer": "Ashith Kumar",
+      "price": "9600",
+      "startDate": "2025-02-03"
+    }
+  ],
+  "enquiry": [
+    {
+      "id": "767a",
+      "name": "Prajwal",
+      "email": "p@gamil.com",
+      "message": "Hello Boss",
+      "phoneNumber": "8095460172"
+    }
+  ]
+}

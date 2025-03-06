@@ -1,0 +1,57 @@
+.app {
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.trainer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.trainer-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trainer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.trainer-image {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+}
+
+.trainer-details {
+    padding: 16px;
+}
+
+.trainer-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.trainer-subject,
+.trainer-experience {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 4px;
+}

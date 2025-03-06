@@ -1,0 +1,35 @@
+.SideBarContainer {
+    margin-top: 1px;
+    height: 89vh;
+    width: 200px;
+    background-color: #337ab7;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.SideBarContainer li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.SideBarContainer li button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #ecf0f1;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.SideBarContainer li button:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+.SideBarContainer li button:focus {
+    outline: none;
+}

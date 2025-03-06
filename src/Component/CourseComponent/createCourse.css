@@ -1,0 +1,59 @@
+.CreateCourseContainer {
+    margin-left: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 30vh;
+}
+
+.CreateCourseContainer h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.CreateCourseContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.CreateCourseContainer form label {
+    font-size: 16px;
+    color: #34495e;
+}
+
+.CreateCourseContainer form input,
+.CreateCourseContainer form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.CreateCourseContainer form input:focus,
+.CreateCourseContainer form select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.CreateCourseContainer form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CreateCourseContainer form button:hover {
+    background-color: #2980b9;
+}
